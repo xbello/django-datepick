@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+include datepick/widgets.py
+recursive-include datepick/static *
+recursive-include datepick/templates *
