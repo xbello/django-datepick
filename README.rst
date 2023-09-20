@@ -8,12 +8,12 @@ your forms.
 Install
 -------
 
-Install the app with `pip install django-datepick`.
+Install the app with ``pip install django-datepick``.
 
 Usage with forms
 ----------------
 
-Change the widget used in your `forms.py`  to use the widgets included in this app::
+Change the widget used in your ``forms.py`` to use the widgets included in this app::
 
     from django import forms
     from datepick import widgets
@@ -26,7 +26,7 @@ Change the widget used in your `forms.py`  to use the widgets included in this a
 Usage with models
 -----------------
 
-Change the field used in your `models.py`  to use the fields from this app::
+Change the field used in your ``models.py`` to use the fields from this app::
 
     from django.db import models
     from datepick import fields
