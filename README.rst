@@ -57,9 +57,9 @@ Same as with any widget, register the model overriding the widget(s) in
 Why?
 ----
 
-Each time you use a date field, the form is a text input. Any frontend would
-like a datepicker of somekind. Turns out browsers and cellphones already have
-a datepicker. It looks like this in a browser:
+Each time you use a date field in Django, the form is a text input. Any
+frontend would like a datepicker of somekind. Turns out browsers and cellphones
+already have a datepicker. It looks like this in a browser:
 
 
 .. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Firefox_Date.png
@@ -68,7 +68,7 @@ a datepicker. It looks like this in a browser:
 .. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Chromium_Date.png
    :width: 150px
 
-.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Chromium_Video.webm
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Chromium_Video.gif
    :width: 150px
 
 
