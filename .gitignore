@@ -1,2 +1,3 @@
+build/
 dist/
 django_datepick.egg-info/
