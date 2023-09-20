@@ -62,25 +62,25 @@ like a datepicker of somekind. Turns out browsers and cellphones already have
 a datepicker. It looks like this in a browser:
 
 
-.. image:: docs/Firefox_Date.png
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Firefox_Date.png
    :width: 150px
 
-.. image:: docs/Chromium_Date.png
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Chromium_Date.png
    :width: 150px
 
-.. image:: docs/Chromium_Video.webm
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Chromium_Video.webm
    :width: 150px
 
 
 And looks like this in a cellphone:
 
-.. image:: docs/Android_Date.png
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Android_Date.jpg
    :width: 150px
 
-.. image:: docs/Android_Time.png
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Android_Time.jpg
    :width: 150px
 
-.. image:: docs/Android_DateTime.png
+.. image:: https://raw.githubusercontent.com/xbello/django-datepick/master/docs/Android_DateTime.jpg
    :width: 150px
 
 
