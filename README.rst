@@ -40,7 +40,7 @@ Override the admin widget
 -------------------------
 
 Same as with any widget, register the model overriding the widget(s) in
-`admin.py`::
+``admin.py``::
 
     from datepick.widgets import DateInput, SplitDateTimeWidget, TimeInput
 
@@ -52,7 +52,7 @@ Same as with any widget, register the model overriding the widget(s) in
             models.TimeField: {"widget": TimeInput},
         }
 
-`DateTimeInput` doesn't work in the admin, as it expects a multivalue field.
+``DateTimeInput`` doesn't work in the admin, as it expects a multivalue field.
 
 Why?
 ----
