@@ -36,6 +36,30 @@ Change the field used in your ``models.py`` to use the fields from this app::
         dt = fields.DateTimeField()
         t = fields.TimeField()
 
+Usage with model_forms
+----------------------
+
+Override the default ``django.forms.widgets.DateInput`` widget with these widgets::
+
+    from datepick import widgets
+    from .models import MyDateModel
+
+
+    class MyForm(forms.ModelForm):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, **kwargs)
+            self.fields["d"].widget = widgets.DateInput()
+            self.fields["dt"].widget = widgets.DateTimeInput()
+            self.fields["t"].widget = widgets.TimeInput()
+
+        class Meta:
+            model = MyDateModel
+            fields = ["d", "dt", "t"]
+
+
+This is useful if you are using a library like Crispy Forms.
+    
+
 Override the admin widget
 -------------------------
 
