@@ -46,6 +46,23 @@ Override the default ``django.forms.widgets.DateInput`` widget with these widget
 
 
     class MyForm(forms.ModelForm):
+        class Meta:
+            model = MyDateModel
+            fields = ["d", "dt", "t"]
+            
+            widgets = {
+                "d": widgets.DateInput(),
+                "dt": widgets.DateTimeInput(),
+                "t": widgets.TimeInput(),
+            }
+
+Or overriding the ``__init__``::
+
+    from datepick import widgets
+    from .models import MyDateModel
+
+
+    class MyForm(forms.ModelForm):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
             self.fields["d"].widget = widgets.DateInput()
